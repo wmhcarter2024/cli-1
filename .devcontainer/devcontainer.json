@@ -1,6 +1,8 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/go:1.24",
 	"features": {
+		"ghcr.io/devcontainers-extra/features/vscode-cli:1": {}
+		"ghcr.io/jpawlowski/devcontainer-features/cli-microsoft365:1": {} /
 		"ghcr.io/devcontainers/features/sshd:1": {}
 	},
 	"remoteUser": "vscode",
